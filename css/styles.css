@@ -65,6 +65,7 @@ body {
 .link:hover,
 .link:focus {
   color: var(--color-ocean);
+  transition: var(--transition-duration-and-func);
 }
 
 .header-logo-web {
@@ -136,6 +137,7 @@ body {
   content: "";
   width: 100%;
   height: 4px;
+  margin-top: 24px;
 }
 .header-address-contacts {
   font-family: "Roboto";
